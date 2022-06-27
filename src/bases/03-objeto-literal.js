@@ -12,8 +12,9 @@ const persona = {
     }
 };
 
-// console.table( persona );
+console.table( persona );
 
+//Copia un objeto de otro (no copia la referencia sino los valores)
 const persona2 = { ...persona };
 persona2.nombre = 'Peter';
 
